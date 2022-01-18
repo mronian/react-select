@@ -1971,13 +1971,9 @@ cases(
     ).toBe('1');
   },
   {
-    'single select > should update aria-activedescendant as per focused option':
-      {
-        skip: true,
-      },
+    'single select > should update aria-activedescendant as per focused option': {},
     'multi select > should update aria-activedescendant as per focused option':
       {
-        skip: true,
         props: {
           ...BASIC_PROPS,
           value: { label: '2', value: 'two' },
